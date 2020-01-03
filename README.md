@@ -63,6 +63,8 @@ One of the coolest features of Presence-Poly is that it can be installed into as
 
 This should be covered by the install.sh script (chmod +x install.sh before you run it), but if you run into any trouble, please execute the below manually
 
-1. sudo apt-get install -y pi-bluetooth bluez python-bluez
-2. python3 -m pip install polyinterface --user
-3. python3 -m pip install pybluez --user
+1. sudo apt-get install libbluetooth-dev
+2. sudo apt-get install python-dev
+3. sudo apt-get install -y pi-bluetooth bluez python-bluez
+4. python3 -m pip install polyinterface --user
+5. python3 -m pip install pybluez --user
