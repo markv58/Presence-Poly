@@ -1,4 +1,1 @@
 polyinterface>=2.0.34
-libbluetooth-dev
-python-dev
-pybluez
